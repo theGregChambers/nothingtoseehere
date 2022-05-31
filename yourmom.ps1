@@ -48,10 +48,15 @@ $ImageName = "dont-be-suspicious"
 
 $fn = Get-Name
 
-echo "Hey" $fn >> $Env:temp\foo.txt
+echo "Hello There" $fn >> $Env:temp\foo.txt
 
-echo "`nRedTeam Wuz Here...." >> $Env:temp\foo.txt
-
+echo "`n Your machine has been compromised. #RedTeamWins " >> $Env:temp\foo.txt
+echo "`n I was able to trick your system into thinking that I was a harmless keyboard. " >> $Env:temp\foo.txt
+echo "`n Then when nobody was looking I executed a powershell script that  " >> $Env:temp\foo.txt
+echo "`n gave me all your data had this bit of fun with your wallpaper.  " >> $Env:temp\foo.txt
+echo "`n Microsoft says you have a script prevention policy for this kind of attack....  " >> $Env:temp\foo.txt
+echo "`n it only covers *.ps files...renaming my script to *.ps1...well the policy let that execute  " >> $Env:temp\foo.txt
+echo "`n These are just jokes...but I could have done anything I wanted with your machine....  " >> $Env:temp\foo.txt
 #############################################################################################################################################
 
 <#
