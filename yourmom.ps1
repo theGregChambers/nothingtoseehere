@@ -54,6 +54,7 @@ echo "Microsoft says you have a script prevention policy for this kind of attack
 echo "it only covers *.ps files...renaming my script to *.ps1...well the policy let that execute  " >> $Env:temp\foo.txt
 echo "These are just jokes...but I could have done anything I wanted with your machine....  " >> $Env:temp\foo.txt
 echo "`n" >> $Env:temp\foo.txt
+echo "One more thing...I helped myself to your network passwords..." >> $Env:temp\foo.txt
 #############################################################################################################################################
 
 <#
